@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
 		x[i] = 2 * i;
 		
 		cout << "Hello World " << i << endl;
+		
 	}
 
 
