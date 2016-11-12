@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < 6; i++)
 	{
-		x[i] = 2 * i;
+		x[i] = 2 * i;  
 
 		cout << "Hello World " << i << endl;
 	}
