@@ -21,7 +21,6 @@ int main(int argc, char *argv[])
 		
 		cout << "Hello World " << i << endl;
 		
-		// 3
 
 	}
 
