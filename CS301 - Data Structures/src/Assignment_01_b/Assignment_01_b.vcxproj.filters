@@ -32,8 +32,5 @@
     <ClCompile Include="Assignment_01_b.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Conv.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,17 +1,35 @@
 ﻿  Assignment01.cpp
-g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(83): error C2259: 'MyList': cannot instantiate abstract class
-  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(83): note: due to following members:
-  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(83): note: 'bool List<int>::insert(const Elem &)': is abstract
+g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): error C2259: 'List<int>': cannot instantiate abstract class
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: due to following members:
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'void List<int>::clear(void)': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(28): note: see declaration of 'List<int>::clear'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'bool List<int>::insert(const Elem &)': is abstract
           with
           [
               Elem=int
           ]
   g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(29): note: see declaration of 'List<int>::insert'
-  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(83): note: 'bool List<int>::append(const Elem &)': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'bool List<int>::append(const Elem &)': is abstract
           with
           [
               Elem=int
           ]
-  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(31): note: see declaration of 'List<int>::append'
-  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(83): note: 'const int &List<int>::getValue(void) const': is abstract
-  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(49): note: see declaration of 'List<int>::getValue'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(30): note: see declaration of 'List<int>::append'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'int List<int>::remove(void)': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(31): note: see declaration of 'List<int>::remove'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'void List<int>::moveToStart(void)': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(32): note: see declaration of 'List<int>::moveToStart'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'void List<int>::moveToEnd(void)': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(33): note: see declaration of 'List<int>::moveToEnd'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'void List<int>::prev(void)': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(34): note: see declaration of 'List<int>::prev'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'void List<int>::next(void)': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(35): note: see declaration of 'List<int>::next'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'int List<int>::leftLength(void) const': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(36): note: see declaration of 'List<int>::leftLength'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'int List<int>::rightLength(void) const': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(37): note: see declaration of 'List<int>::rightLength'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'void List<int>::movetoPos(int)': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(38): note: see declaration of 'List<int>::movetoPos'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(47): note: 'const int &List<int>::getValue(void) const': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(39): note: see declaration of 'List<int>::getValue'
