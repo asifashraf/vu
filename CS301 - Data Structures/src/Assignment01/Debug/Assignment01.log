@@ -1,0 +1,17 @@
+﻿  Assignment01.cpp
+g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(83): error C2259: 'MyList': cannot instantiate abstract class
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(83): note: due to following members:
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(83): note: 'bool List<int>::insert(const Elem &)': is abstract
+          with
+          [
+              Elem=int
+          ]
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(29): note: see declaration of 'List<int>::insert'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(83): note: 'bool List<int>::append(const Elem &)': is abstract
+          with
+          [
+              Elem=int
+          ]
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(31): note: see declaration of 'List<int>::append'
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(83): note: 'const int &List<int>::getValue(void) const': is abstract
+  g:\vu\cs301 - data structures\src\assignment01\assignment01.cpp(49): note: see declaration of 'List<int>::getValue'
